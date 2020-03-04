@@ -1,0 +1,75 @@
+.FormContainer {
+    /* width: 300px; */
+    height: 290px;
+    /* padding-left: calc(50% - 150px); */
+    
+    display: flex;
+    align-items: center;
+  justify-content: center;
+    height: 100vh;
+    position: relative
+}
+
+.FormContainer .sun-shower {
+    /* position: relative; */
+    /* top: calc(50vh - 245px); */
+}
+
+.FormContainer .content {
+    /* max-width: 50%; */
+    position: relative;
+    margin-top: -245px
+}
+
+.FormContainer form {
+    display: flex;
+    flex-direction: column;
+}
+
+.FormContainer form input {
+    padding: 10px;
+    font-size: 18px;
+    font-family: M plus;
+    text-align: center;
+    font-weight: 400;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.FormContainer form input::placeholder {
+    color: #fff;
+    opacity: 0.7;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.FormContainer form button {
+    width: 200px;
+    line-height: 40px;
+    border: 1px solid #fff;
+    background: transparent;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    transition: ease-in-out all .3s;
+    cursor: pointer;
+}
+
+.FormContainer form button:hover {
+    background: rgba(255,255,255,0.2)
+}
+
+.FormContainer form button:focus {
+    /* border: none; */
+    outline: none;
+    
+}
