@@ -48,7 +48,7 @@ const DayWeather = (props) => {
     // console.log(nextDaysWeather);
 
 
-    console.log(nextDaysWeather)
+    // console.log(nextDaysWeather)
     // console.log(temperatures)
     // console.log(props.weather.image)
     return (
