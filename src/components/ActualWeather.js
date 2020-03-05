@@ -3,7 +3,7 @@ import { FaMapMarkerAlt } from 'react-icons/fa';
 import ActualWeatherInfo from './ActualWeatherInfo';
 
 const ActualWeather = (props) => {
-    const { date, city, temp, pressure, wind } = props.weather;
+    const { date, city, } = props.weather;
     return (
         <div className="ActualWeather">
             <div className="Details" style={{ borderBottom: '1px solid rgba(255,255,255, 0.6' }}>

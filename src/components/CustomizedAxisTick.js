@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 
 class CustomizedAxisTick extends Component {
     render() {
-        const { x, y, stroke, payload } = this.props;
+        const { x, y, payload } = this.props;
 
         return (
             <g transform={`translate(${x},${y})`}>
